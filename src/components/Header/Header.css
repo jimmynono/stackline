@@ -1,0 +1,10 @@
+.header {
+  background-color: #102747;
+  width: 100%;
+  display: block;
+  padding: 1rem;
+}
+
+.header_image {
+  height: 2rem;
+}

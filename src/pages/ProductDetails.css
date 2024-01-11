@@ -1,0 +1,15 @@
+#root {
+  width: 100%;
+}
+
+body {
+  background-color: #F5F7F9;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 4rem 2rem;
+}
+
