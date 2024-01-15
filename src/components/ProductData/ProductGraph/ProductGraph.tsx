@@ -1,9 +1,12 @@
-import './ProductGraph.css'
+import { SalesProps } from "../../../types/ProductInfo";
+import "./ProductGraph.css";
+import ProductSalesChart from "./ProductSalesChart";
 
-export const ProductGraph = ({data}) => {
+export const ProductGraph = ({ data }: SalesProps) => {
   return (
-    <div className='product-graph'><h2>Retail Sales</h2>
-    <div>tabler here</div>
+    <div className="product-graph">
+      <h2 className="product-graph_header">Retail Sales</h2>
+      <ProductSalesChart data={data} />
     </div>
-  )
-}
+  );
+};

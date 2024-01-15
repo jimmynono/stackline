@@ -5,7 +5,7 @@ export const dataSlice = createSlice({
   initialState: [],
   reducers: {
     updateData(state, action) {
-     return {...state, data: action.payload}
+      return { ...state, data: action.payload[0] };
     },
   },
 });

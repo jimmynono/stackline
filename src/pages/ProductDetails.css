@@ -3,13 +3,18 @@
 }
 
 body {
-  background-color: #F5F7F9;
+  background-color: #f5f7f9;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  padding: 4rem 2rem;
+  gap: 2rem;
+  padding: 2rem;
+  opacity: 0.25;
 }
 
+.active {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
